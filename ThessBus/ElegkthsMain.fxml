@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="95.0" layoutY="54.0" prefHeight="40.0" prefWidth="103.0" text="Φόρτωσε QR code:" />
+      <TextField layoutX="95.0" layoutY="94.0" prefHeight="32.0" prefWidth="262.0" />
+      <Button layoutX="435.0" layoutY="94.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="96.0" text="Browse" />
+      <Label layoutX="93.0" layoutY="160.0" text="Όνομα" />
+      <Label layoutX="95.0" layoutY="233.0" text="Επώνημο" />
+      <Label layoutX="95.0" layoutY="302.0" text="Αρ. Ταυτότητας" />
+      <Label layoutX="367.0" layoutY="160.0" text="Τηλέφωνο" />
+      <Label layoutX="372.0" layoutY="233.0" text="Διεύθυνση" />
+      <TextField layoutX="94.0" layoutY="177.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField layoutX="95.0" layoutY="250.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField layoutX="94.0" layoutY="319.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField layoutX="367.0" layoutY="177.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField layoutX="367.0" layoutY="250.0" prefHeight="25.0" prefWidth="164.0" />
+      <Button layoutX="367.0" layoutY="291.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="164.0" text="Πρόστιμο" />
+      <ImageView fitHeight="17.0" fitWidth="56.0" layoutX="95.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="95.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="17.0" layoutX="95.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="17.0" layoutX="372.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../download.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="16.0" fitWidth="25.0" layoutX="368.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images%20(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
