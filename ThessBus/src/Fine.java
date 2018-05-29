@@ -8,18 +8,18 @@ public class Fine {
 	int bus;
 	boolean paid;
 	
-	public Fine(String date_time, User owner, String inspector_num, int bus, boolean paid) {
+	public Fine(String date_time, User owner, String inspector_num, int bus) {
 		this.date_time = date_time;
 		this.owner = owner;
-		this.price = countPrice(owner.getPass_no);
+		this.price = countPrice(owner.getPass_no());
 		this.inspector_num = inspector_num;
 		this.bus = bus;
-		this.paid = paid;
+		this.paid = false;
 	}
 
 	public void finePaid()
 	{
-		paid = false;
+		paid = true;
 	}
 	
 	public double countPrice(String passenger_pass_num)
